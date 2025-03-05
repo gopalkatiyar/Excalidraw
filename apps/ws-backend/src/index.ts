@@ -6,6 +6,7 @@ wss.on('connection', function connection(ws) {
  
   ws.on('message', function message(data) {
 		ws.send('pong');
+		console.log("ji")
   });
 
 });
